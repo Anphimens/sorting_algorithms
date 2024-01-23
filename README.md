@@ -7,7 +7,7 @@ In computer science, a sorting algorithm is an algorithm that puts elements of a
 
 
 ## Big O Notation
-Big O notation is a mathematical notation that describes the limiting behaviourof a function when the argument approaches a particular value or infinity. In computer science, Big O notation is commonly used to analyze and descrive the efficiency of algorithms in terms of their time complexity or space complexity.
+Big O notation is a mathematical notation that describes the limiting behaviour of a function when the argument approaches a particular value or infinity. In computer science, Big O notation is commonly used to analyze and describe the efficiency of algorithms in terms of their time complexity or space complexity.
 
 The notation is expressed as `O(f(n))`, where `O` stands for order, and `f(n)` represents a function that characterizes the performance of the algorithm. The variable `n` usually represents the input size of the algorithm.
 
@@ -26,7 +26,7 @@ The Big O notation helps in providing an upper bound on the growth rate of the a
 - `O(n^2)`: Quadratic time complexity - The performance is proportional to the square of the size of the input.
 
 + `O(2^n)`: Exponential time complexity - The performance grows exponentially with the size of the input.
-
+uybjkghyr4
 
 **In this project, the repositoy contains [files](), [Header file](), [test files]() and [O files]().*
 
