@@ -10,11 +10,8 @@ void selection_sort(int *array, size_t size)
 {
 	bool min_found;
 	size_t i, j, minval = 0;
-	if (size <= 1)
-	{
-		print_array(array, size);
+	if (array == NULL || size < 2)
 		return;
-	}
 	for (i = 0; i < size - 1; i++)
 	{
 		minval = i;
