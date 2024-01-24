@@ -8,18 +8,17 @@
  */
 void selection_sort(int *array, size_t size)
 {
-	int store, min_val;
 	bool min_found;
-	size_t i, j = 0;
+	size_t i, j, minval = 0;
 	if (size <= 1)
 	{
 		print_array(array, size);
 		return;
 	}
-	minval = i;
-	min_found = false;
 	for (i = 0; i < size - 1; i++)
 	{
+		minval = i;
+		min_found = false;
 		for (j = i + 1; j < size; j++)
 			if (array[minval] > array[j])
 			{
